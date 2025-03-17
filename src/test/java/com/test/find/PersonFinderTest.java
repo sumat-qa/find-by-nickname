@@ -16,7 +16,7 @@ class PersonFinderTest {
   private PersonFinder finder = new PersonFinder();
 
   @Test
-  @DisplayName("should find josdem")
+  @DisplayName("should find sumith")
   void shouldFindPersonByNickname(){
     List<Person> persons = Arrays.asList(
       new Person("SUMITH", "sumith@dominos.com"),
